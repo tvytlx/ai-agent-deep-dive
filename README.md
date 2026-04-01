@@ -3,7 +3,11 @@
 ## Quick Links
 
 - PDF 下载 / PDF Report: [claude-code-deep-dive-xelatex.pdf](./claude-code-deep-dive-xelatex.pdf)
-- 源码目录 / Extracted Source Directory: [extracted-source/](./extracted-source/)
+
+## Notes
+
+- 根据相关政策要求，源码文件不能保留在这个仓库中，因此源码目录已移除。
+- 第二版 PDF 正在制作中。
 
 ---
 
@@ -1092,9 +1096,3 @@ Claude Code 不一样。它通过：
 > Claude Code 的真正秘密，不是一段 system prompt，而是一个把 prompt architecture、tool runtime、permission model、agent orchestration、skill packaging、plugin system、hooks governance、MCP integration、context hygiene 和 product engineering 全部统一起来的系统。
 
 这就是为什么它不像一个“会调工具的聊天机器人”，而更像一个真正可扩展、可治理、可产品化的 Agent Operating System。
-# Claude Code Deep Dive
-
-Files:
-
-- `claude-code-deep-dive-xelatex.pdf`: full PDF report
-- `README.md`: single-file Markdown version of the report
