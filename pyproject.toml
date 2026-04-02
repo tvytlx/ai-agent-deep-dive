@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ai-agent-deep-dive"
+version = "0.1.0"
+description = "Teaching-oriented Python coding agent inspired by modern agent runtimes"
+authors = ["Xiao Tan <no-reply@example.com>"]
+readme = "README.md"
+packages = [{ include = "agt", from = "src" }]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<4.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+
+[tool.poetry.scripts]
+agt = "agt.cli:main"
+
+[build-system]
+requires = ["poetry-core>=1.9.0"]
+build-backend = "poetry.core.masonry.api"
