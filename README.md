@@ -13,7 +13,7 @@
 ## Quick Links
 
 PDF reports:
-- New: **Hermes Agent Source Code Deep Dive**, available in my Zhishixingqiu community [矩阵之外](https://t.zsxq.com/v10jO).
+- New: **Hermes Agent Source Code Deep Dive**
 - Claude Code: [ai-agent-deep-dive-v2.1.pdf](./ai-agent-deep-dive-v2.1.pdf), including the new Chapter 8: Memory System.
 - Claude Code: [ai-agent-deep-dive-v2.pdf](./ai-agent-deep-dive-v2.pdf).
 
